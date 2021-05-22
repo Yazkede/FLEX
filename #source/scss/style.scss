@@ -1,0 +1,254 @@
+
+
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+.wrapper {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+.content {
+      flex: 1 1 auto;
+}
+.hi {
+   padding: 50px 0;  
+   background-color: #445162;
+   
+
+		&__row {
+         display: flex;
+         justify-content: space-between;
+         
+		}
+
+		&__body {
+		}
+
+		&__title {
+         box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+         font-size: 60px;
+         line-height: 1.2;
+         font-weight: 400;
+         color: #ffffff;
+         padding-bottom: 40px;
+      }
+
+		&__list {
+         height: 127px;
+         box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+         font-size: 20px;
+         line-height: 36px;
+         font-weight: 400;
+         color: #ffffff;
+		}
+
+      &__list li{
+         background: url('/img/icons/icon1.png') 0 6px no-repeat;
+         padding: 0 0 0 40px;
+         line-height: 35px;
+      }
+
+		&__image {
+         padding: 20px 50px 40px 0;
+         width: 469px;
+         height: 214px;
+         flex: 0 1 auto;
+
+		}
+}
+
+.title2{
+   font-size: 30px;
+   line-height: 36px;
+   color: #445161;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 30px;
+}
+
+.what {
+
+   &__row {}
+
+   &__body {
+      display: flex;
+      padding: 50px 0;
+   }
+
+   &__image {
+      width: 430px;
+      height: 186px;
+      padding-top: 20px;
+   }
+
+   &__description {
+      flex: 1 1 auto;
+      
+   }
+
+   &__title {
+      margin-left: -400px;
+   }
+
+   &__text {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #333333;
+      p {
+         padding: 0 0 35px 35px;
+      }
+      p:last-child{
+         padding: 0 0 0 35px;
+      }
+   }
+}
+
+.columns {
+   
+
+   &__title {
+   }
+
+   &__row {
+      display: flex;
+      flex-wrap: wrap;
+      
+   }
+
+   &__column {
+      
+   }
+      
+
+   &__item {}
+}
+
+
+.item {
+   
+
+   &__row {
+      display: flex;
+   }
+
+   &__image {
+      padding: 0 15px 30px 15px;
+   }
+
+   &__body {
+      
+   }
+
+   &__title {
+      
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #445161;
+   }
+
+   &__text {
+      
+      width: 359px;
+      height: 108px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #333333;
+   }
+}
+
+.vertical {
+   
+
+   &__row {
+      display: flex;
+      justify-content: center;
+      flex-direction: space-between;
+      
+   }
+
+   &__column {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 499px;
+      background-color: #445162;
+      margin-left: 45px;
+      border-radius: 5px;
+   }
+
+   &__subtitle {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 0;
+   }
+
+   &__value {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 71px;
+      border: 2px solid #445162;
+      background-color: #ffffff;
+      font-size: 40px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #445162;
+   }
+
+   &__text {
+      display: flex;
+      flex: 1 1 auto;
+      padding: 10px 10px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #ffffff;
+   }
+
+   &__btn{
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 700;
+      color: #445161;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+      width: 260px;
+      height: 40px;
+      background-color: #ffffff;
+      margin-bottom: 20px;
+   }
+
+}
+
+.footer {
+   margin-top: 50px;
+   display: flex;
+   height: 65px;
+   justify-content: center;
+   align-items: center;
+   background: #f5f5f5;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 400;
+   letter-spacing: 0.025em;
+   color: #445162;
+}
